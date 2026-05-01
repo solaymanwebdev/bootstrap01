@@ -12,13 +12,17 @@ ul,ol{
 }
 a{
     text-decoration: none;
+    display: inline-block;
 
 }
 /* Common CSS End */
 
 /* Header Part Start */
 .navbar {
-    background: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 
 }
 .nav-link{
@@ -35,3 +39,203 @@ a{
 }
 
 /* Header Part End */
+
+/* Banner Part Start */
+#bannerPart{
+    padding-top: 337px;
+    padding-bottom: 95px;
+    background: url(../images/banner\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.bannerContent h3{
+    font-size: 27px;
+    font-weight: 400;
+}
+.bannerContent h1{
+    font-size: 60px;
+    font-weight: 600;
+    position: relative;
+
+}
+
+.bannerContent h1::after{
+    position: absolute;
+    height: 4px;
+    width: 90px;
+    content: "";
+    background: #fff;
+    right: 0;
+    bottom: 0;
+}
+.bannerContent p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: auto;
+    width: 521px;
+}
+.bannerContent .myBtn{
+    padding: 15px 25px;
+    background: #ffffff;
+    color: #000000;
+    margin-bottom: 295px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.bannerContent ul{
+    display: flex;
+    padding-left: 0!important;
+    column-gap: 10px;
+    
+}
+.bannerContent ul li a i{
+ font-size: 30px;
+ color: #fff;
+}
+/* Banner Part End */
+/* About Part Start */
+
+#aboutPart{
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background: #121212;
+}
+
+.aboutLeftContent h3{
+    font-size: 38px;
+    font-weight: 600;
+    position: relative;
+    line-height: auto;
+    width: 518px;
+    color: #ffffff;
+}
+.aboutLeftContent h3::after {
+    position: absolute;
+    height: 4px;
+    width: 90px;
+    content: "";
+    background: #ff0000;
+    right: 231px;
+    bottom: 5px;
+}
+.aboutLeftContentBg{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 700px;
+}
+.aboutLeftContentBg::after{
+    position: absolute;
+    height: 7px;
+    width: 169px;
+    background: #FF4655;
+    content: "";
+    top: 23px;
+    left: 1px;
+}
+.aboutLeftContentBg::before{
+    position: absolute;
+    height: 169px;
+    width: 7px;
+    background: #FF4655;
+    content: "";
+    top: 23px;
+    left: 1px;
+}
+.aboutLeftContent img{
+    margin-top: 30px;
+    /* width: 708px;    */
+}
+
+
+.aboutRightcontent{
+    /* width: 501px; */
+}
+.aboutRightcontent h3{
+    margin-top: 135px;
+    font-size: 27px;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 3px;
+}
+.aboutRightcontent ul li{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 10px;
+    
+    
+}
+.aboutRightcontent ul li i{
+    margin-right: 5px;
+    color: #ff0000;
+}
+.aboutRightcontent ul{
+    padding-left: 0 !important;
+
+}
+.aboutRightcontent p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: auto;
+    width: 501px;
+}
+.aboutRightcontent .myBtn{
+    padding: 15px 25px;
+    background: #212121;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.counterItem{
+    background: #212121;
+    padding: 40px;
+    border-top-right-radius: 43px;
+    border-bottom-left-radius: 43px;
+    text-align: center;
+    color: #fff;
+}
+.counterItem h3{
+    font-size: 60px;
+    font-weight: 600;
+    /* color: #fff; */
+    line-height: auto;
+    letter-spacing: 3px;
+    position: relative;
+}
+
+.counterItem h3::after {
+    position: absolute;
+    bottom: 9px;
+    right: 27px;
+    content: "";
+    height: 12px;
+    width: 12px;
+    border-radius: 60%;
+    background: #ff0000;
+}
+.counterItem p{
+    font-size: 18px;
+    font-weight: 300;
+    /* color: #fff; */
+    line-height: auto;
+    letter-spacing: 2px;
+    border-top-right-radius: 38px;
+}
+
+/* About Part End */
+/* Banner Part Start */
+
+/* Banner Part End */
+/* Banner Part Start */
+
+/* Banner Part End */
+/* Banner Part Start */
+
+/* Banner Part End */

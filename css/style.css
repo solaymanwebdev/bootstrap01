@@ -1,20 +1,23 @@
-
 /* Common CSS Start */
-*{
+* {
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
     font-family: "Oswald", sans-serif;
 }
-ul,ol{
+
+ul,
+ol {
     list-style-type: none;
 }
-a{
+
+a {
     text-decoration: none;
     display: inline-block;
 
 }
+
 /* Common CSS End */
 
 /* Header Part Start */
@@ -25,23 +28,25 @@ a{
     width: 100%;
 
 }
-.nav-link{
+
+.nav-link {
     color: #dddddd;
     font-size: 16px;
     font-weight: 400;
 }
-.headerIcon{
+
+.headerIcon {
     /* color: #ddd; */
 }
 
-.headerIcon span{
+.headerIcon span {
     padding: 0 10px;
 }
 
 /* Header Part End */
 
 /* Banner Part Start */
-#bannerPart{
+#bannerPart {
     padding-top: 337px;
     padding-bottom: 95px;
     background: url(../images/banner\ 1.png);
@@ -51,18 +56,19 @@ a{
 }
 
 
-.bannerContent h3{
+.bannerContent h3 {
     font-size: 27px;
     font-weight: 400;
 }
-.bannerContent h1{
+
+.bannerContent h1 {
     font-size: 60px;
     font-weight: 600;
     position: relative;
 
 }
 
-.bannerContent h1::after{
+.bannerContent h1::after {
     position: absolute;
     height: 4px;
     width: 90px;
@@ -71,13 +77,15 @@ a{
     right: 0;
     bottom: 0;
 }
-.bannerContent p{
+
+.bannerContent p {
     font-size: 16px;
     font-weight: 400;
     line-height: auto;
     width: 521px;
 }
-.bannerContent .myBtn{
+
+.bannerContent .myBtn {
     padding: 15px 25px;
     background: #ffffff;
     color: #000000;
@@ -87,146 +95,142 @@ a{
 }
 
 
-.bannerContent ul{
+.bannerContent ul {
     display: flex;
-    padding-left: 0!important;
+    padding-left: 0 !important;
     column-gap: 10px;
-    
+
 }
-.bannerContent ul li a i{
- font-size: 30px;
- color: #fff;
+
+.bannerContent ul li a i {
+    font-size: 30px;
+    color: #fff;
 }
+
 /* Banner Part End */
 /* About Part Start */
-
-#aboutPart{
+#aboutPart {
+    background: #121212;
     padding-top: 40px;
     padding-bottom: 80px;
-    background: #121212;
 }
 
-.aboutLeftContent h3{
+.aboutPartMainContent{
+    margin-bottom: 66px;
+}
+
+.aboutPartMainContent h3 {
+    color: #fff;
+    line-height: auto;
     font-size: 38px;
     font-weight: 600;
     position: relative;
-    line-height: auto;
-    width: 518px;
-    color: #ffffff;
+
 }
-.aboutLeftContent h3::after {
+
+.aboutPartMainContent h3::after {
     position: absolute;
     height: 4px;
     width: 90px;
     content: "";
-    background: #ff0000;
-    right: 231px;
-    bottom: 5px;
+    background: #ff4040;
+    right: 166px;
+    bottom: 4px;
 }
-.aboutLeftContentBg{
+
+.aboutLeftContent{
     position: relative;
-    top: 0;
-    left: 0;
-    width: 700px;
+    margin-bottom: 50px;
 }
-.aboutLeftContentBg::after{
+.aboutLeftContent::before {
     position: absolute;
-    height: 7px;
-    width: 169px;
-    background: #FF4655;
-    content: "";
-    top: 23px;
-    left: 1px;
-}
-.aboutLeftContentBg::before{
-    position: absolute;
-    height: 169px;
+    top: 0px;
+    left: -6px;
+    height: 157px;
     width: 7px;
     background: #FF4655;
     content: "";
-    top: 23px;
-    left: 1px;
 }
-.aboutLeftContent img{
-    margin-top: 30px;
-    /* width: 708px;    */
+
+.aboutLeftContent::after {
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    height: 7px;
+    width: 157px;
+    background: #FF4655;
+    content: "";
 }
 
 
-.aboutRightcontent{
-    /* width: 501px; */
-}
-.aboutRightcontent h3{
-    margin-top: 135px;
+.aboutRightContent h3{
+    color: #fff;
+    line-height: auto;
     font-size: 27px;
     font-weight: 600;
-    color: #ffffff;
-    letter-spacing: 3px;
 }
-.aboutRightcontent ul li{
-    font-size: 18px;
-    font-weight: 400;
-    color: #fff;
-    padding-bottom: 10px;
-    
-    
-}
-.aboutRightcontent ul li i{
-    margin-right: 5px;
-    color: #ff0000;
-}
-.aboutRightcontent ul{
-    padding-left: 0 !important;
 
-}
-.aboutRightcontent p{
+
+
+.aboutRightContent p{
     font-size: 18px;
     font-weight: 400;
-    color: #FFFFFF;
     line-height: auto;
-    width: 501px;
-}
-.aboutRightcontent .myBtn{
-    padding: 15px 25px;
-    background: #212121;
     color: #fff;
+}
+.aboutRightContent ul {
+    color: #fff;
+    line-height: auto;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 0;
+    font-family: "Barlow", sans-serif;
+}
+
+.aboutRightContent ul li i{
+    color: #ff0000;
+    margin-right: 10px;
+}
+
+.aboutRightContent a {
+    padding: 19px;
+    background: #ffffff;
+    color: #000000;
+    /* margin-bottom: 300px; */
     font-size: 16px;
     font-weight: 400;
 }
+
 .counterItem{
     background: #212121;
     padding: 40px;
-    border-top-right-radius: 43px;
-    border-bottom-left-radius: 43px;
     text-align: center;
-    color: #fff;
+    border-top-right-radius: 36px;
+    border-bottom-left-radius: 36px;
+
 }
+
 .counterItem h3{
     font-size: 60px;
     font-weight: 600;
-    /* color: #fff; */
-    line-height: auto;
-    letter-spacing: 3px;
+    color: #fff;
     position: relative;
 }
 
-.counterItem h3::after {
+.counterItem h3::after{
     position: absolute;
+    right: 41px;
     bottom: 9px;
-    right: 27px;
-    content: "";
+    background: #FF4655;
     height: 12px;
     width: 12px;
-    border-radius: 60%;
-    background: #ff0000;
+    border-radius: 50%;
+    content: "";
 }
 .counterItem p{
     font-size: 18px;
     font-weight: 300;
-    /* color: #fff; */
-    line-height: auto;
-    letter-spacing: 2px;
-    border-top-right-radius: 38px;
+    color: #fff;
 }
 
 /* About Part End */

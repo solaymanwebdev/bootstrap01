@@ -233,10 +233,75 @@ a {
     color: #fff;
 }
 
-/* About Part End */
-/* Banner Part Start */
+/* Popular Part Start */
+#popularPart{
+    background: #191919;
+    padding-top: 114px;
+    padding-bottom: 88px;
+}
+.popularPartContent h3{
+    font-size: 38px;
+    font-weight: 600px;
+    line-height: auto;
+    color: #fff;
+    position: relative;
+    margin-bottom: 86px;
+}
 
-/* Banner Part End */
+.popularPartContent h3::before{
+    position: absolute;
+    right: -20px;
+    bottom: 0px;
+    content: "";
+    background: #ff4040;
+    height: 4px;
+    width: 105px;
+    
+}
+
+.rightImg img{
+    width: 564px;
+}
+.popularPartContent h3::before {
+    position: absolute;
+    right: 115px;
+    bottom: 5px;
+    content: "";
+    background: #ff4655;
+    height: 4px;
+    width: 105px;
+}
+/* Papular Part End */
+
+/* Shedule Part Start */
+#shedulePart{
+    background: #121212;
+    padding-top: 85px;
+    padding-bottom: 90px;
+}
+.shedulePartContent h3{
+    font-size: 38px;
+    font-weight: 600px;
+    line-height: auto;
+    color: #fff;
+    position: relative;
+    margin-bottom: 86px;
+    position: relative;
+}
+.shedulePartContent h3::after{
+    position: absolute;
+    left: 137px;
+    bottom: 5px;
+    content: "";
+    background: #ff4040;
+    height: 4px;
+    width: 105px;
+}
+.middle{
+    height: 295px;
+    
+}
+/* Shedue Part End */
 /* Banner Part Start */
 
 /* Banner Part End */

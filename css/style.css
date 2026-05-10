@@ -115,7 +115,7 @@ a {
     padding-bottom: 80px;
 }
 
-.aboutPartMainContent{
+.aboutPartMainContent {
     margin-bottom: 66px;
 }
 
@@ -138,10 +138,11 @@ a {
     bottom: 4px;
 }
 
-.aboutLeftContent{
+.aboutLeftContent {
     position: relative;
     margin-bottom: 50px;
 }
+
 .aboutLeftContent::before {
     position: absolute;
     top: 0px;
@@ -163,7 +164,7 @@ a {
 }
 
 
-.aboutRightContent h3{
+.aboutRightContent h3 {
     color: #fff;
     line-height: auto;
     font-size: 27px;
@@ -172,12 +173,13 @@ a {
 
 
 
-.aboutRightContent p{
+.aboutRightContent p {
     font-size: 18px;
     font-weight: 400;
     line-height: auto;
     color: #fff;
 }
+
 .aboutRightContent ul {
     color: #fff;
     line-height: auto;
@@ -187,7 +189,7 @@ a {
     font-family: "Barlow", sans-serif;
 }
 
-.aboutRightContent ul li i{
+.aboutRightContent ul li i {
     color: #ff0000;
     margin-right: 10px;
 }
@@ -201,7 +203,7 @@ a {
     font-weight: 400;
 }
 
-.counterItem{
+.counterItem {
     background: #212121;
     padding: 40px;
     text-align: center;
@@ -210,14 +212,14 @@ a {
 
 }
 
-.counterItem h3{
+.counterItem h3 {
     font-size: 60px;
     font-weight: 600;
     color: #fff;
     position: relative;
 }
 
-.counterItem h3::after{
+.counterItem h3::after {
     position: absolute;
     right: 41px;
     bottom: 9px;
@@ -227,19 +229,21 @@ a {
     border-radius: 50%;
     content: "";
 }
-.counterItem p{
+
+.counterItem p {
     font-size: 18px;
     font-weight: 300;
     color: #fff;
 }
 
 /* Popular Part Start */
-#popularPart{
+#popularPart {
     background: #191919;
     padding-top: 114px;
     padding-bottom: 88px;
 }
-.popularPartContent h3{
+
+.popularPartContent h3 {
     font-size: 38px;
     font-weight: 600px;
     line-height: auto;
@@ -248,7 +252,7 @@ a {
     margin-bottom: 86px;
 }
 
-.popularPartContent h3::before{
+.popularPartContent h3::before {
     position: absolute;
     right: -20px;
     bottom: 0px;
@@ -256,12 +260,13 @@ a {
     background: #ff4040;
     height: 4px;
     width: 105px;
-    
+
 }
 
-.rightImg img{
+.rightImg img {
     width: 564px;
 }
+
 .popularPartContent h3::before {
     position: absolute;
     right: 115px;
@@ -271,15 +276,17 @@ a {
     height: 4px;
     width: 105px;
 }
+
 /* Papular Part End */
 
 /* Shedule Part Start */
-#shedulePart{
+#shedulePart {
     background: #121212;
     padding-top: 85px;
     padding-bottom: 90px;
 }
-.shedulePartContent h3{
+
+.shedulePartContent h3 {
     font-size: 38px;
     font-weight: 600px;
     line-height: auto;
@@ -288,7 +295,8 @@ a {
     margin-bottom: 86px;
     position: relative;
 }
-.shedulePartContent h3::after{
+
+.shedulePartContent h3::after {
     position: absolute;
     left: 137px;
     bottom: 5px;
@@ -297,14 +305,167 @@ a {
     height: 4px;
     width: 105px;
 }
-.middle{
+
+.middle {
     height: 295px;
-    
+
 }
+
 /* Shedue Part End */
-/* Banner Part Start */
+/* Feq Part Start */
+#faqPart {
+    background: #121212;
+    padding-top: 48px;
+    padding-bottom: 154px;
+}
 
-/* Banner Part End */
-/* Banner Part Start */
+.FaqHeader h3 {
+    font-size: 38px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 114px;
+    position: relative;
+    letter-spacing: 10%;
+    line-height: auto;
+    width: 493px;
+}
 
-/* Banner Part End */
+.FaqHeader h3::after {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    background: #FF4655;
+    height: 1px;
+    width: 129px;
+    content: "";
+
+}
+
+.box {
+    height: 70px;
+    width: 70px;
+    background: #ff4655;
+    position: relative;
+}
+
+.box h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 500px;
+}
+
+.leftContent {
+    display: flex;
+    column-gap: 20px;
+}
+
+.boxText h3 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: auto;
+    color: #ffffff;
+}
+
+.boxText p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: auto;
+    color: #666666;
+}
+
+.line {
+    position: relative;
+}
+
+.line::after {
+    position: absolute;
+    bottom: -70px;
+    left: 0;
+    content: "";
+    background: #ffffff;
+    height: 1px;
+    width: 100%;
+
+}
+
+.line::before {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    content: "";
+    background: #ffffff;
+    height: 369px;
+    width: 1px;
+
+}
+
+/* Feq Part End */
+
+/* Footer Part Start */
+#footerPart {
+    background: #191919;
+    padding-top: 125px;
+    padding-bottom: 70px;
+}
+
+.firstContentTop h3 {
+    color: #dddddd;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: auto;
+    position: relative;
+    margin-bottom: 39px;
+}
+
+.firstContentTop h3::after {
+    position: absolute;
+    left: 116px;
+    bottom: 4px;
+    background: #ff4655;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    content: "";
+}
+.firstContentTop p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: auto;
+    color: #666666;
+    margin-bottom: 63px;
+}
+
+.iconBox{
+    color: #dddddd;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #212529;
+    position: relative;
+}
+.iconBox i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.firstContentBottom{
+    display: flex;
+    column-gap: 20px;
+}
+.secondContent h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.secondContent p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+}
+/* Footer Part End */

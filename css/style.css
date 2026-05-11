@@ -412,6 +412,12 @@ a {
     padding-bottom: 70px;
 }
 
+
+.floatingBox{
+    background: #FF4655;
+    padding: 165px 0;
+}
+
 .firstContentTop h3 {
     color: #dddddd;
     font-size: 35px;
